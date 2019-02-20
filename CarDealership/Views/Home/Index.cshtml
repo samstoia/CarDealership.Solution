@@ -1,0 +1,23 @@
+@using CarDealership.Models;
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Car Dealership</title>
+  </head>
+  <body>
+  <h1>Find Your Car</h1>
+  <form action="/carlist" method="post">
+
+    <label for="inputMiles">Enter the maximum number of miles you would want the car to have</label>
+    <input id="inputMiles" name="inputMiles" type="text">
+    <br>
+    <label for="inputPrice">Enter the maximum price you would like to pay</label>
+    <input id="inputPrice" name="inputPrice" type="text">
+    <br>
+    <button type="submit">Submit</button>
+
+  </form>
+
+  </body>
+</html>

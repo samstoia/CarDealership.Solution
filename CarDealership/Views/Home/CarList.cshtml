@@ -1,0 +1,22 @@
+@using CarDealership.Models;
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Your Matching Cars</title>
+  </head>
+  <body>
+
+@foreach (Car automobile in Model)
+{
+  <!--if (automobile.WorthBuying(inputPrice, inputMiles))
+  { -->
+    <p>@automobile.GetMakeModel()</p>
+    <p>@automobile.GetPrice()</p>
+    <p>@automobile.GetMiles()</p>
+  <!--}-->
+
+}
+
+  </body>
+</html>
